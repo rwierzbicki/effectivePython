@@ -1,7 +1,7 @@
 
 
 
-def	safe_division_c(number,	divisor,*,ignore_overflow=True,ignore_zero_division=False):
+def	safe_division_c(number,	divisor,*,ignore_overflow,ignore_zero_division=False):
     print(number+divisor)
 
 safe_division_c(1,2, ignore_overflow=True)
