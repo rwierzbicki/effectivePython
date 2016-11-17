@@ -32,7 +32,7 @@ def cheeseshop(kind_of_cake, *arguments, **keywords):
 test = kwarg("test", dont=False)
 print(test)
 
-print("-  -  - - - - now for a totally different test")
+print("- - - - - - now for a totally different test -")
 
 test = kwarg(a,dont=True, c="def", g="hij")
 print(test)
